@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<installscript>
+  <info>
+    <name>look-in</name>
+    <author>look-in author</author>
+    <version>0.5.0.0</version>
+    <type>plugin</type>
+  </info>
+  
+  <packageinfo>
+    <title>Main files</title>
+    <file>look-in.dll</file>
+  </packageinfo>
+  
+  <packageinfo>
+    <optional/>
+    <title>Documentation</title>
+    <file>look-in-readme.txt</file>
+    <file>look-in-translation.txt</file>
+  </packageinfo>
+
+  <packageinfo>
+    <optional/>
+    <title>Additional templates</title>
+    <file>template/ICQDefault.tmpl</file>
+    <file>template/MSNDefault.tmpl</file>
+    <file>template/ICQBasic.tmpl</file>
+    <file>template/MSNBasic.tmpl</file>
+  </packageinfo>
+</installscript>

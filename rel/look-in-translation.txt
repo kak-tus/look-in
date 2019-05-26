@@ -1,0 +1,5 @@
+;translatable string
+
+;settings dialog
+[Hide other user info tabs from dialog (works, if other language in Miranda is not used)]
+[Plugin/protocol/template corresponding]

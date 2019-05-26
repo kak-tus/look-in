@@ -1,0 +1,5 @@
+<tmplIf name=\"Nick\">Nickname: <tmplVar name=\"Nick\"></tmplIf><tmplIf name=\"e-mail\">\x0D\x0A" \
+"Primary e-mail: <tmplVar name=\"e-mail\"></tmplIf><tmplIf name=\"Status\">\x0D\x0A" \
+"MSN status: <tmplVar name=\"Status\"></tmplIf><tmplIf name=\"MyNotes\">\x0D\x0A" \
+"Notes: <tmplVar name=\"MyNotes\"></tmplIf>\x0D\x0A" \
+"

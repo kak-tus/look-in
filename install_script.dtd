@@ -1,0 +1,17 @@
+<!ELEMENT installscript (info,packageinfo+,autorun?)>
+<!ELEMENT info          (name,author,version,type)>
+<!ELEMENT name          (#PCDATA)>
+<!ELEMENT author        (#PCDATA)>
+
+<!ELEMENT version		(#PCDATA)>
+<!ELEMENT type			(#PCDATA)> <!-- one of plugin|icon|sound|langpack|tool|source|doc|skin|nightly -->
+
+
+
+<!ELEMENT packageinfo	(optional?,title,file+)>
+<!ELEMENT optional		EMPTY>
+<!ELEMENT title			(#PCDATA)>
+
+<!ELEMENT file			(#PCDATA)>
+<!ELEMENT autorun		(file,document?)>
+<!ELEMENT document		EMPTY>

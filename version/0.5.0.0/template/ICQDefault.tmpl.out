@@ -1,0 +1,47 @@
+<tmplIf name=\"Nick\">Nickname: <tmplVar name=\"Nick\"></tmplIf><tmplIf name=\"FirstName\"><tmplIf name=\"LastName\">\x0D\x0A" \
+"First and last name: <tmplVar name=\"FirstName\"> <tmplVar name=\"LastName\"><tmplElse>\x0D\x0A" \
+"First name: <tmplVar name=\"FirstName\"></tmplIf><tmplElse><tmplIf name=\"LastName\">\x0D\x0A" \
+"Last name: <tmplVar name=\"LastName\"></tmplIf></tmplIf><tmplIf name=\"Gender\">\x0D\x0A" \
+"Gender: <tmplVar name=\"Gender\"></tmplIf><tmplIf name=\"e-mail\">\x0D\x0A" \
+"Primary e-mail: <tmplVar name=\"e-mail\"></tmplIf><tmplIf name=\"Birthday\">\x0D\x0A" \
+"Date of birth: <tmplVar name=\"Birthday\"><tmplIf name=\"Age\">, age: <tmplVar name=\"Age\"></tmplIf><tmplElse><tmplIf name=\"Age\">\x0D\x0A" \
+"Age: <tmplVar name=\"Age\"></tmplIf></tmplIf><tmplIf name=\"UIN\">\x0D\x0A" \
+"UIN: <tmplVar name=\"UIN\"></tmplIf><tmplIf name=\"IP\">\x0D\x0A" \
+"IP external: <tmplVar name=\"IP\"><tmplIf name=\"RealIP\">, internal: <tmplVar name=\"RealIP\"></tmplIf><tmplElse><tmplIf name=\"RealIP\">\x0D\x0A" \
+"IP internal: <tmplVar name=\"RealIP\"></tmplIf></tmplIf><tmplIf name=\"MirVer\">\x0D\x0A" \
+"ICQ client: <tmplVar name=\"MirVer\"><tmplIf name=\"Version\">, version: <tmplVar name=\"Version\"></tmplIf><tmplIf name=\"UserPort\">, port: <tmplVar name=\"UserPort\"></tmplIf><tmplElse><tmplIf name=\"Version\">\x0D\x0A" \
+"ICQ version: <tmplVar name=\"Version\"><tmplIf name=\"UserPort\">, port: <tmplVar name=\"UserPort\"></tmplIf><tmplElse><tmplIf name=\"UserPort\">\x0D\x0A" \
+"ICQ port: <tmplVar name=\"UserPort\"></tmplIf></tmplIf></tmplIf><tmplIf name=\"LogonTS\">\x0D\x0A" \
+"Online since: <tmplVar name=\"LogonTS\"><tmplIf name=\"TickTS\">, system up: <tmplVar name=\"TickTS\"></tmplIf><tmplIf name=\"IdleTS\">, idle: <tmplVar name=\"IdleTS\"></tmplIf><tmplElse><tmplIf name=\"TickTS\">\x0D\x0A" \
+"System up since: <tmplVar name=\"TickTS\"><tmplIf name=\"IdleTS\">, idle: <tmplVar name=\"IdleTS\"></tmplIf><tmplElse><tmplIf name=\"IdleTS\">\x0D\x0A" \
+"Idle since: <tmplVar name=\"IdleTS\"></tmplIf></tmplIf></tmplIf><tmplIf name=\"Status\">\x0D\x0A" \
+"ICQ status: <tmplVar name=\"Status\"></tmplIf><tmplIf name=\"Mye-mail\">\x0D\x0A" \
+"Other e-mails: <tmplVar name=\"Mye-mail\"></tmplIf><tmplIf name=\"Phone\">\x0D\x0A" \
+"Phone number: <tmplVar name=\"Phone\"><tmplIf name=\"Fax\">, fax: <tmplVar name=\"Fax\"></tmplIf><tmplIf name=\"Cellular\">, mobile: <tmplVar name=\"Cellular\"></tmplIf><tmplElse><tmplIf name=\"Fax\">\x0D\x0A" \
+"Fax number: <tmplVar name=\"Fax\"><tmplIf name=\"Cellular\">, mobile: <tmplVar name=\"Cellular\"></tmplIf><tmplElse><tmplIf name=\"Cellular\">\x0D\x0A" \
+"Mobile phone number: <tmplVar name=\"Cellular\"></tmplIf></tmplIf></tmplIf><tmplIf name=\"MyPhone\">\x0D\x0A" \
+"Other phone numbers: <tmplVar name=\"MyPhone\"></tmplIf><tmplIf name=\"Country\">\x0D\x0A" \
+"Address: <tmplVar name=\"Country\"><tmplIf name=\"State\"> <tmplVar name=\"State\"></tmplIf><tmplIf name=\"ZIP\"> <tmplVar name=\"ZIP\"></tmplIf><tmplIf name=\"City\"> <tmplVar name=\"City\"></tmplIf><tmplIf name=\"Street\"> <tmplVar name=\"Street\"></tmplIf><tmplElse><tmplIf name=\"State\">\x0D\x0A" \
+"Address: <tmplVar name=\"State\"><tmplIf name=\"ZIP\"> <tmplVar name=\"ZIP\"></tmplIf><tmplIf name=\"City\"> <tmplVar name=\"City\"></tmplIf><tmplIf name=\"Street\"> <tmplVar name=\"Street\"></tmplIf><tmplElse><tmplIf name=\"ZIP\">\x0D\x0A" \
+"Address: <tmplVar name=\"ZIP\"><tmplIf name=\"City\"> <tmplVar name=\"City\"></tmplIf><tmplIf name=\"Street\"> <tmplVar name=\"Street\"></tmplIf><tmplElse><tmplIf name=\"City\">\x0D\x0A" \
+"Address: <tmplVar name=\"City\"><tmplIf name=\"Street\"> <tmplVar name=\"Street\"></tmplIf><tmplElse><tmplIf name=\"Street\">\x0D\x0A" \
+"Address: <tmplVar name=\"Street\"></tmplIf></tmplIf></tmplIf></tmplIf></tmplIf><tmplIf name=\"Language1\">\x0D\x0A" \
+"Spoken languages: <tmplVar name=\"Language1\"><tmplIf name=\"Language2\">, <tmplVar name=\"Language2\"></tmplIf><tmplIf name=\"Language3\">, <tmplVar name=\"Language3\"></tmplIf><tmplElse><tmplIf name=\"Language2\">\x0D\x0A" \
+"Spoken languages: <tmplVar name=\"Language2\"><tmplIf name=\"Language3\">, <tmplVar name=\"Language3\"></tmplIf><tmplElse><tmplIf name=\"Language3\">\x0D\x0A" \
+"Spoken language: <tmplVar name=\"Language3\"></tmplIf></tmplIf></tmplIf><tmplIf name=\"Timezone\">\x0D\x0A" \
+"Timezone: <tmplVar name=\"Timezone\">, local time: <tmplVar name=\"Localtime\"></tmplIf><tmplIf name=\"Company\">\x0D\x0A" \
+"Company: <tmplVar name=\"Company\"></tmplIf><tmplIf name=\"Department\">\x0D\x0A" \
+"Department: <tmplVar name=\"Department\"></tmplIf><tmplIf name=\"Position\">\x0D\x0A" \
+"Position: <tmplVar name=\"Position\"></tmplIf><tmplIf name=\"CompanyCountry\">\x0D\x0A" \
+"Company address: <tmplVar name=\"CompanyCountry\"><tmplIf name=\"CompanyState\"> <tmplVar name=\"CompanyState\"></tmplIf><tmplIf name=\"CompanyZIP\"> <tmplVar name=\"CompanyZIP\"></tmplIf><tmplIf name=\"CompanyCity\"> <tmplVar name=\"CompanyCity\"></tmplIf><tmplIf name=\"CompanyStreet\"> <tmplVar name=\"CompanyStreet\"></tmplIf><tmplElse><tmplIf name=\"CompanyState\">\x0D\x0A" \
+"Company address: <tmplVar name=\"CompanyState\"><tmplIf name=\"CompanyZIP\"> <tmplVar name=\"CompanyZIP\"></tmplIf><tmplIf name=\"CompanyCity\"> <tmplVar name=\"CompanyCity\"></tmplIf><tmplIf name=\"CompanyStreet\"> <tmplVar name=\"CompanyStreet\"></tmplIf><tmplElse><tmplIf name=\"CompanyZIP\">\x0D\x0A" \
+"Company address: <tmplVar name=\"CompanyZIP\"><tmplIf name=\"CompanyCity\"> <tmplVar name=\"CompanyCity\"></tmplIf><tmplIf name=\"CompanyStreet\"> <tmplVar name=\"CompanyStreet\"></tmplIf><tmplElse><tmplIf name=\"CompanyCity\">\x0D\x0A" \
+"Company address: <tmplVar name=\"CompanyCity\"><tmplIf name=\"CompanyStreet\"> <tmplVar name=\"CompanyStreet\"></tmplIf><tmplElse><tmplIf name=\"CompanyStreet\">\x0D\x0A" \
+"Company address: <tmplVar name=\"CompanyStreet\"></tmplIf></tmplIf></tmplIf></tmplIf></tmplIf><tmplIf name=\"CompanyHomepage\">\x0D\x0A" \
+"Company website: <tmplVar name=\"CompanyHomepage\"></tmplIf><tmplIf name=\"Homepage\">\x0D\x0A" \
+"Homepage: <tmplVar name=\"Homepage\"></tmplIf><tmplIf name=\"Past\">\x0D\x0A" \
+"Past background: <tmplVar name=\"Past\"></tmplIf><tmplIf name=\"Interest\">\x0D\x0A" \
+"Interests: <tmplVar name=\"Interest\"></tmplIf><tmplIf name=\"About\">\x0D\x0A" \
+"About: <tmplVar name=\"About\"></tmplIf><tmplIf name=\"MyNotes\">\x0D\x0A" \
+"Notes: <tmplVar name=\"MyNotes\"></tmplIf>\x0D\x0A" \
+"
